@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Member Requests" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Attendence" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Thrift" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Monthly fee and fine" />
+        <item
+            android:id="@+id/nav_tools1"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Loan" />
+        <item
+            android:id="@+id/nav_tools12"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Expense" />
+        <item
+            android:id="@+id/nav_tools123"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Monthly Report" />
+        <item
+            android:id="@+id/nav_tools1234"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Complaints and suggestions" />
+        <item
+            android:id="@+id/nav_tools12345"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Change password" />
+        <item
+        android:id="@+id/nav_tools123456"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Logout" />
+
+
+
+
+    </group>
+
+
+
+</menu>
